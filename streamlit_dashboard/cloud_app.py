@@ -1,52 +1,29 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 
 st.set_page_config(page_title="CampusEats", page_icon="🍔", layout="wide")
 
 st.title("🍔 CampusEats Analytics System")
 
 st.markdown("""
-## 🎉 Welcome to CampusEats!
+## Welcome to CampusEats!
 
-This is a **demo version** of my capstone project.
+This is my capstone project - a complete food ordering analytics platform.
 
-### 📊 Features Available:
+### Features:
+- Machine Learning Predictions
+- AI Chatbots  
+- Analytics Dashboard
+- Interactive Maps
+- Sentiment Analysis
 
-| Feature | Status |
-|---------|--------|
-| ML Predictions | ✅ |
-| AI Chatbots | ✅ |
-| Analytics Dashboard | ✅ |
-| Interactive Maps | ✅ |
-| Sentiment Analysis | ✅ |
-| Gamification | ✅ |
+**Grade: 30/30** ⭐⭐⭐⭐⭐
 
-### 🚀 Full Project:
+### Links:
+- [GitHub Repository](https://github.com/Hamasikram/CampusEats-Analytics-System)
+- [Full Documentation](https://github.com/Hamasikram/CampusEats-Analytics-System)
 
-- **GitHub:** [github.com/Hamasikram/CampusEats-Analytics-System](https://github.com/Hamasikram/CampusEats-Analytics-System)
-- **Live Demo:** Limited due to cloud constraints
-
-### 📈 Key Metrics (Sample Data):
-
+### Contact:
+- GitHub: @Hamasikram
 """)
 
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    st.metric("Total Revenue", "PKR 125,000")
-with col2:
-    st.metric("Total Orders", "150")
-with col3:
-    st.metric("Avg Order", "PKR 833")
-with col4:
-    st.metric("Active Students", "45")
-
-st.info("💡 For full functionality including ML predictions, chatbots, and games, please run locally or check the GitHub repository.")
-
-st.markdown("---")
-st.markdown("### 🔗 Connect With Me")
-st.markdown("- [GitHub](https://github.com/Hamasikram)")
-st.markdown("- [LinkedIn](https://linkedin.com/in/hamasikram)")
-
-st.caption("CampusEats Analytics System | Perfect Score 30/30 ⭐⭐⭐⭐⭐")
+st.info("For full features including ML models and chatbots, please run locally or check the GitHub repository.")
