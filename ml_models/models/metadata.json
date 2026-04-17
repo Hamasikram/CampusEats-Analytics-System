@@ -1,0 +1,27 @@
+{
+    "training_date": "2026-04-17T10:17:55.637905",
+    "features": [
+        "hour",
+        "day_of_week",
+        "month",
+        "is_weekend",
+        "is_meal_time",
+        "is_exam_period",
+        "student_encoded",
+        "stall_encoded",
+        "category_encoded",
+        "total_spending",
+        "avg_stall_rating",
+        "student_order_count",
+        "student_stall_frequency",
+        "spending_ratio"
+    ],
+    "lr_rmse": 430.9036670341829,
+    "lr_mae": 366.17178990855035,
+    "lr_r2": 0.0708590931160723,
+    "rf_rmse": 375.90986683005156,
+    "rf_mae": 305.7068866041366,
+    "rf_r2": 0.29288727731489417,
+    "training_samples": 120,
+    "test_samples": 30
+}
